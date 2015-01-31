@@ -121,6 +121,11 @@
 /* P8_11 eQEP2B_in */
 /* #include "am335x-bone-eqep2b.dtsi" */
 
+/* eHRPWM0: */
+/* P9_22 eHRPWM0A */
+/* P9_21 eHRPWM0B */
+/* #include "am335x-bone-ehrpwm0.dtsi" */
+
 /* Capes */
 /* http://elinux.org/4D_4.3_LCD_CAPE */
 /* 4DCAPE-43 (Non Touch version): */
