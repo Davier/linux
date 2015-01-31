@@ -129,6 +129,10 @@
 /* P9_14 eHRPWM1A */
 /* P9_16 eHRPWM1B */
 /* #include "am335x-bone-ehrpwm1.dtsi" */
+/* eHRPWM2: */
+/* P8_19 eHRPWM2A */
+/* P8_13 eHRPWM2B */
+/* #include "am335x-bone-ehrpwm2.dtsi" */
 
 /* Capes */
 /* http://elinux.org/4D_4.3_LCD_CAPE */
