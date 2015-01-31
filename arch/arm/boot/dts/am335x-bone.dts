@@ -110,6 +110,18 @@
 /* P8_35 eQEP1A_in */
 /* P8_33 eQEP1B_in */
 /* #include "am335x-bone-eqep1.dtsi" */
+/* eqep2: */
+/* P8_39 eQEP2_index */
+/* P8_40 eQEP2_strobe */
+/* P8_41 eQEP2A_in */
+/* P8_42 eQEP2B_in */
+/*#include "am335x-bone-eqep2.dtsi" */
+/* eqep2b: alternative pins that does not conflict with HDMI */
+/* P8_16 eQEP2_index */
+/* P8_15 eQEP2_strobe */
+/* P8_12 eQEP2A_in */
+/* P8_11 eQEP2B_in */
+/* #include "am335x-bone-eqep2b.dtsi" */
 
 /* Capes */
 /* http://elinux.org/4D_4.3_LCD_CAPE */
