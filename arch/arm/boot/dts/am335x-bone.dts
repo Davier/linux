@@ -104,6 +104,12 @@
 /* P9_42 eQEP0A_in */
 /* P9_27 eQEP0B_in */
 /* #include "am335x-bone-eqep0.dtsi" */
+/* eqep1: */
+/* P8_31 eQEP1_index */
+/* P8_32 eQEP1_strobe */
+/* P8_35 eQEP1A_in */
+/* P8_33 eQEP1B_in */
+/* #include "am335x-bone-eqep1.dtsi" */
 
 /* Capes */
 /* http://elinux.org/4D_4.3_LCD_CAPE */
