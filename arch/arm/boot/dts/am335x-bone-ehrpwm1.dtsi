@@ -1,0 +1,25 @@
+/*
+ * Copyright (C) 2015 Brice DAVIER
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ * 
+ * Enable eQEP0 on the Beaglebone Black - incompatible with BB White because
+ * most of the eQEP0 pins on Beaglebone white are not broken out.
+ */
+
+#include "am335x-ehrpwm1.dtsi"
+
+&ocp {
+	/* eHRPWM1A */
+	P9_14_pinmux {
+		mode = "pwm";
+	};
+
+	/* eHRPWM1B */
+	P9_16_pinmux {
+		mode = "pwm";
+	};
+};
+
