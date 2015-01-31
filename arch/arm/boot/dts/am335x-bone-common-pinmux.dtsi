@@ -1213,7 +1213,7 @@
 	P9_27_gpio_pd_pin: pinmux_P9_27_gpio_pd_pin {
 		pinctrl-single,pins = <0x1a4  0x27>; };     /* Mode 7, Pull-Down, RxActive */
 	P9_27_qep_pin: pinmux_P9_27_qep_pin {
-		pinctrl-single,pins = <0x1a4  0x21>; };     /* Mode 1, Pull-Down, RxActive */
+		pinctrl-single,pins = <0x1a4  0x31>; };     /* Mode 1, Pull-Up, RxActive */
 	P9_27_pruout_pin: pinmux_P9_27_pruout_pin {
 		pinctrl-single,pins = <0x1a4  0x25>; };     /* Mode 5, Pull-Down, RxActive */
 	P9_27_pruin_pin: pinmux_P9_27_pruin_pin {
@@ -1369,7 +1369,7 @@
 	P9_92_gpio_pd_pin: pinmux_P9_92_gpio_pd_pin {
 		pinctrl-single,pins = <0x1a0  0x27>; };     /* Mode 7, Pull-Down, RxActive */
 	P9_92_qep_pin: pinmux_P9_92_qep_pin {
-		pinctrl-single,pins = <0x1a0  0x21>; };     /* Mode 1, Pull-Down, RxActive */
+		pinctrl-single,pins = <0x1a0  0x31>; };     /* Mode 1, Pull-Up, RxActive */
 	P9_92_pruout_pin: pinmux_P9_92_pruout_pin {
 		pinctrl-single,pins = <0x1a0  0x25>; };     /* Mode 5, Pull-Down, RxActive */
 	P9_92_pruin_pin: pinmux_P9_92_pruin_pin {

@@ -96,6 +96,13 @@
 #include "am335x-ttyO5.dtsi"
 /* #include "am335x-bone-ttyO5.dtsi" */
 
+/* eqep0: */
+/* P9_41 eQEP0_index */
+/* P9_25 eQEP0_strobe */
+/* P9_42 eQEP0A_in */
+/* P9_27 eQEP0B_in */
+/* #include "am335x-bone-eqep0.dtsi" */
+
 /* Capes */
 /* http://elinux.org/4D_4.3_LCD_CAPE */
 /* 4DCAPE-43 (Non Touch version): */
